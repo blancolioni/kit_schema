@@ -71,7 +71,7 @@ package body Kit.Schema.Types is
    overriding function Return_Subtype
      (Item : Long_Integer_Type)
       return String
-   is ("Integer_64");
+   is ("Kit.Db.Integer_64");
 
    overriding function Create_Database_Record
      (For_Type : Long_Integer_Type)
